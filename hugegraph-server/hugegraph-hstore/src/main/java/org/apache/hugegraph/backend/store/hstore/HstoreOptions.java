@@ -28,7 +28,7 @@ public class HstoreOptions extends OptionHolder {
             "pd.peers",
             "The addresses of pd nodes, separated with commas.",
             disallowEmpty(),
-            "localhost:8686"
+            "127.0.0.1:8686"
     );
     public static final ConfigOption<Boolean> PD_FAKE = new ConfigOption<>(
             "pd.fake",

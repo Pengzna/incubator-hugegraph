@@ -473,7 +473,7 @@ public class StandardHugeGraph implements HugeGraph {
     private void initMetaManager() {
         this.metaManager.connect("hg", MetaManager.MetaDriverType.PD,
                                  "ca", "ca", "ca",
-                                 Collections.singletonList("127.0.0.1:8686"));
+                                 List.of("127.0.0.1:8686"));
     }
 
     private ISchemaTransaction openSchemaTransaction() throws HugeException {

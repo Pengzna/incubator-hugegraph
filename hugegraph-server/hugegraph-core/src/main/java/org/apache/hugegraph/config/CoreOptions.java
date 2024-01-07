@@ -304,7 +304,7 @@ public class CoreOptions extends OptionHolder {
                     "complete, such as when truncating or clearing the " +
                     "backend.",
                     rangeInt(0L, Long.MAX_VALUE),
-                    10L
+                    1000L
             );
 
     public static final ConfigOption<Long> TASK_INPUT_SIZE_LIMIT =
