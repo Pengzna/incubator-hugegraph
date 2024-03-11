@@ -31,10 +31,11 @@ import org.apache.hugegraph.store.client.util.HgStoreClientUtil;
  * @version 1.3.0 add canceled assert
  */
 public class HgOwnerKey implements Serializable {
-    private final byte[] owner;
+    private final byte[] owner; // TODO: consider remove? since it seems to be useless
     private int keyCode = 0;// TODO: Be here OK?
     private byte[] key;
-    private int serialNo;   //顺序号，用于批量查询保证返回结果的顺序性
+    // Sequence number, used for batch queries to ensure the order of returned results
+    private int serialNo;
 
     /**
      * @param owner

@@ -24,7 +24,7 @@ import java.nio.ByteBuffer;
 import java.util.function.Consumer;
 
 /**
- * 为了提升性能，复用内存，减少gc回收，需要重写KvStream.writeTo方法
+ * In order to improve performance, reuse memory, and reduce gc recycling, the KvStream.writeTo method needs to be rewritten.
  */
 public final class KvStream extends
                             com.google.protobuf.GeneratedMessageV3 implements

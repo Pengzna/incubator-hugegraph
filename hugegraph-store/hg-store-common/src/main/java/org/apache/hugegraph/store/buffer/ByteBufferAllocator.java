@@ -25,13 +25,12 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 
 public class ByteBufferAllocator {
-    // 每个bytebuffer大小
+    // size of each Buffer
     final int capacity;
-    // buffer 最大个数
+    // max num of Buffers
     final int maxCount;
-    // 空闲队列
     final BlockingQueue<ByteBuffer> freeQueue = new LinkedBlockingQueue<>();
-    // 当前数量
+    // current num of Buffers in queue
     AtomicInteger totalCount;
 
     public ByteBufferAllocator(int cap, int count) {

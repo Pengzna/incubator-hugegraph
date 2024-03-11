@@ -22,7 +22,7 @@ import static io.grpc.MethodDescriptor.generateFullMethodName;
 /**
  * <pre>
  **
- *为了提升性能，复用内存，减少gc回收，需要重写KvStream.writeTo方法
+ * In order to improve performance, reuse memory, and reduce gc recycling, the KvStream.writeTo method needs to be rewritten.
  * </pre>
  */
 @javax.annotation.Generated(
@@ -237,7 +237,7 @@ public final class HgStoreStreamGrpc {
   /**
    * <pre>
    **
-   *为了提升性能，复用内存，减少gc回收，需要重写KvStream.writeTo方法
+   * In order to improve performance, reuse memory, and reduce gc recycling, the KvStream.writeTo method needs to be rewritten.
    * </pre>
    */
   public static abstract class HgStoreStreamImplBase implements io.grpc.BindableService {
@@ -321,7 +321,7 @@ public final class HgStoreStreamGrpc {
   /**
    * <pre>
    **
-   *为了提升性能，复用内存，减少gc回收，需要重写KvStream.writeTo方法
+   * In order to improve performance, reuse memory, and reduce gc recycling, the KvStream.writeTo method needs to be rewritten.
    * </pre>
    */
   public static final class HgStoreStreamStub extends io.grpc.stub.AbstractAsyncStub<HgStoreStreamStub> {
@@ -380,7 +380,7 @@ public final class HgStoreStreamGrpc {
   /**
    * <pre>
    **
-   *为了提升性能，复用内存，减少gc回收，需要重写KvStream.writeTo方法
+   * In order to improve performance, reuse memory, and reduce gc recycling, the KvStream.writeTo method needs to be rewritten.
    * </pre>
    */
   public static final class HgStoreStreamBlockingStub extends io.grpc.stub.AbstractBlockingStub<HgStoreStreamBlockingStub> {
@@ -413,7 +413,7 @@ public final class HgStoreStreamGrpc {
   /**
    * <pre>
    **
-   *为了提升性能，复用内存，减少gc回收，需要重写KvStream.writeTo方法
+   * In order to improve performance, reuse memory, and reduce gc recycling, the KvStream.writeTo method needs to be rewritten.
    * </pre>
    */
   public static final class HgStoreStreamFutureStub extends io.grpc.stub.AbstractFutureStub<HgStoreStreamFutureStub> {

@@ -24,8 +24,7 @@ option java_package = "org.apache.hugegraph.store.grpc.stream";
 option java_outer_classname = "HgStoreStreamProto";
 
 /**
-    为了提升性能，复用内存，减少gc回收，需要重写KvStream.writeTo方法
-
+   In order to improve performance, reuse memory, and reduce gc recycling, the KvStream.writeTo method needs to be overwrite.
  */
 service HgStoreStream {
 
@@ -39,7 +38,7 @@ service HgStoreStream {
 
 message KvStream {
   int32 seq_no = 1;        //query times.
-  bool over = 2;          //true=no more data
+  bool over = 2;           //true=no more data
   uint32 version = 4;
   bytes stream = 5;
   KvStreamType type = 6;
